@@ -28,9 +28,6 @@ def input_check():
 		print 'Question skipped.'
 		i = i + 1
 		txt_display()
-#	elif input == 'exit': #break
-#		print 'quitted!'
-#		table_of_content()
 	elif input == 'exit':
 		print 'Program terminated by user.'
 		a = 1
@@ -46,23 +43,9 @@ def input_check():
 		print 'Try again!'
 		txt_display()
 
-# help / ? / info
-"""
-def table_of_content():
-	print 'Choose your lesson: 1) a 2) b'
-	t = raw_input('Your choice: ')
-	if t == '1':
-		print 'a'
-	elif t == '2':
-		print 'b'
-	else:
-		print 'Choose between 1 & 2 please.'
-		table_of_content()
-"""
 
 # MAIN
 
-#table_of_content()
 txt_display()
 while a == 0:
 	input_check()
