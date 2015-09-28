@@ -1,4 +1,5 @@
-
+#TODO:
+#read questions/answers from external file.
 
 questions = [
 'What is the capital of Belgium ?',
